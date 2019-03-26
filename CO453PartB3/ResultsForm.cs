@@ -10,11 +10,19 @@ using System.Windows.Forms;
 
 namespace CO453PartB3
 {
-    public partial class Form1 : Form
+    public partial class ResultsForm : Form
     {
-        public Form1()
+        public decimal bill;
+        public int noPeople;
+
+        public ResultsForm()
         {
             InitializeComponent();
+        }
+
+        private void ResultsForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
